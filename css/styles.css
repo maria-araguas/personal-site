@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Itim', cursive;
+
+}
+
+/*** Font Styles ***/
+
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    font-family: 'Molle', cursive;
+    font-size: 5.625rem;
+
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3rem;
+
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+} 
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+hr {
+    color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+
+/*** Main Containers ***/
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px auto auto auto;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+/*** Other Designs ***/
+
+.pro {
+    text-decoration: underline;
+}
+
+.programmer {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 450px;
+    bottom: 450px;
+}
+
+.profile-subtitle {
+    margin: auto auto 100px auto;
+    width: 50%;
+    text-align: justify center;
+}
+
+.last-name {
+    color: #EAF6F6;
+}
+
+.btn {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 11px;
+    background-color: #4EB8F7;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #1E62D0;
+    border: solid #337FED 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+.footer-link {
+    font-size: 1.2rem;
+}
+
+/*** My Skills ***/
+
+.skills {
+    margin: 100px auto 100px auto;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+    width: 50%;
+
+}
+
+.proofreading-img {
+    border-radius: 50%;
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.computer-img {
+    border-radius: 50%;
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+}
